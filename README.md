@@ -1,11 +1,18 @@
+# SOLUTION
+
+### To run
+
+- install dependencies`pipenv install`
+- run pip enviroment `pipenv shell`
+- Run app `python main.py`
+
+---
+
 # Python exercise
 
 ## Problem:
 
-Company X wants to reward some of its clients for their continued support and wants to create a lottery system to do so.
-They have an API they can query to get a list of random clients from which to choose.
-They want to poll their API until they get 25 winners from different states in the United States,
-1 winner per state.
+Company X wants to reward some of its clients for their continued support and wants to create a lottery system to do so. They have an API they can query to get a list of random clients from which to choose. They want to poll their API until they get 25 winners from different states in the United States, 1 winner per state.
 
 ## Exercise:
 
@@ -19,5 +26,3 @@ Write a python script that will:
   - if there is already a winner from that state, replace it with the new one, otherwise create a new winner
 - Print some logs to show changes in the table
 - Print the table when done (the table should have 25 entries at the end of the lottery)
-
-Please add comments and tests.
